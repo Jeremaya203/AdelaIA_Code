@@ -53,6 +53,10 @@ cp .env.example .env          # completar GROQ_API_KEY y JINA_API_KEY
 
 Sin llaves o sin índice, `/api/query` responde 503: el servicio no inventa respuestas.
 
+## Derechos
+
+© 2026 Fabián Orlando López Cruz. Todos los derechos reservados. El código se publica para su consulta y verificación académica. No se concede permiso de copia, modificación ni redistribución sin autorización escrita del autor.
+
 ## Advertencia sobre reproducibilidad
 
 Ejecutar este código no reproduce las respuestas evaluadas. El modelo generador (GPT-OSS 120B en Groq) se consume como servicio externo, su versión no queda fijada por el cliente, y la temperatura empleada (0,3) no elimina la variabilidad entre ejecuciones. La corrida del 17 de septiembre, con tres repeticiones por caso, documenta esa variación: dos de los quince casos cambiaron de veredicto entre repeticiones (ver Anexo M).
